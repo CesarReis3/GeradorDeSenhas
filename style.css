@@ -1,0 +1,62 @@
+@font-face {
+    font-family: glich;
+    src: url(fonts/GlitchInside.otf);
+}
+body{
+    background-color: #222831;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 50%;
+    text-align: center;  
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #C84B31;
+}
+
+
+
+
+.container h1{
+    font-family: glich;
+    font-size: 65px;
+    color: #DDDDDD;
+}
+
+.container p{
+    color: black;
+    background-color: #DDDDDD;
+    border-radius: 30px;
+    box-shadow: 4px 4px black;
+    font-weight: 100;
+}
+
+.container input{
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%;
+    background-color: #DDDDDD ;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+    width: 150px;
+    height: 50px;
+}
